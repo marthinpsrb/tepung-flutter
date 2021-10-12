@@ -1,4 +1,4 @@
-library tepung_flutter;
+library tepung;
 
 /// A Calculator.
 class Calculator {
