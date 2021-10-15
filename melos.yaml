@@ -1,0 +1,16 @@
+name: tepung
+
+packages:
+  - 'tepung/**'
+  - 'tepung_demo/**'
+
+scripts:
+  demo:app:
+    run: |
+      melos exec --scope="*tepung_demo*" -- \
+        exec fvm flutter run
+    select-packages:
+      file-exists:
+        - lib/main.dart
+    description: |
+      Runs host app
