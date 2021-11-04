@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'color/tepung_color_token.dart';
 import 'spacing/tepung_spacing_token.dart';
 import 'typhography/tepung_text_theme.dart';
+import 'tepung_material_token.dart';
 
 @immutable
 class TepungThemeData {
@@ -10,11 +11,13 @@ class TepungThemeData {
   final TepungSpacingTokens spacing;
   final TepungTextTheme textTheme;
   final Brightness brightness;
+  final TepungMaterialTokens material;
 
   const TepungThemeData._({
     required this.colors,
     required this.spacing,
     required this.textTheme,
+    required this.material,
     required this.brightness,
   });
 
@@ -23,6 +26,7 @@ class TepungThemeData {
       colors: TepungColorTokens.greenThemeDark(),
       spacing: TepungSpacingTokens.greenThemeDark(),
       textTheme: TepungTextTheme.greenThemeDark(),
+      material: TepungMaterialTokens.greenThemeDark(),
       brightness: Brightness.dark,
     );
   }
@@ -32,6 +36,7 @@ class TepungThemeData {
       colors: TepungColorTokens.greenThemeLight(),
       spacing: TepungSpacingTokens.greenThemeLight(),
       textTheme: TepungTextTheme.greenThemeLight(),
+      material: TepungMaterialTokens.greenThemeLight(),
       brightness: Brightness.light,
     );
   }
@@ -41,6 +46,7 @@ class TepungThemeData {
       colors: TepungColorTokens.purpleThemeDark(),
       spacing: TepungSpacingTokens.purpleThemeDark(),
       textTheme: TepungTextTheme.purpleThemeDark(),
+      material: TepungMaterialTokens.purpleThemeDark(),
       brightness: Brightness.dark,
     );
   }
@@ -50,6 +56,7 @@ class TepungThemeData {
       colors: TepungColorTokens.purpleThemeLight(),
       spacing: TepungSpacingTokens.purpleThemeLight(),
       textTheme: TepungTextTheme.purpleThemeLight(),
+      material: TepungMaterialTokens.purpleThemeLight(),
       brightness: Brightness.light,
     );
   }

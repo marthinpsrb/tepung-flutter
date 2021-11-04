@@ -7,6 +7,8 @@ class TepungColorTokens {
   final Color fillInactiveSecondary;
   final Color fillErrorPrimary;
   final Color fillErrorSecondary;
+  final Color fillBackgroundPrimary;
+  final Color fillBackgroundSecondary;
 
   const TepungColorTokens._({
     required this.fillActivePrimary,
@@ -15,6 +17,8 @@ class TepungColorTokens {
     required this.fillInactiveSecondary,
     required this.fillErrorPrimary,
     required this.fillErrorSecondary,
+    required this.fillBackgroundPrimary,
+    required this.fillBackgroundSecondary,
   });
 
   factory TepungColorTokens.greenThemeDark() {
@@ -25,6 +29,8 @@ class TepungColorTokens {
       fillInactiveSecondary: Color.fromARGB(255, 54, 52, 52),
       fillErrorPrimary: Color.fromARGB(255, 255, 50, 61),
       fillErrorSecondary: Color.fromARGB(255, 33, 0, 1),
+      fillBackgroundPrimary: Color.fromARGB(255, 28, 29, 29),
+      fillBackgroundSecondary: Color.fromARGB(255, 51, 52, 52),
     );
   }
 
@@ -36,6 +42,8 @@ class TepungColorTokens {
       fillInactiveSecondary: Color.fromARGB(255, 237, 237, 237),
       fillErrorPrimary: Color.fromARGB(255, 234, 0, 31),
       fillErrorSecondary: Color.fromARGB(255, 255, 248, 248),
+      fillBackgroundPrimary: Color.fromARGB(255, 255, 255, 255),
+      fillBackgroundSecondary: Color.fromARGB(255, 255, 255, 255),
     );
   }
 
@@ -47,6 +55,8 @@ class TepungColorTokens {
       fillInactiveSecondary: Color.fromARGB(255, 237, 237, 237),
       fillErrorPrimary: Color.fromARGB(255, 234, 0, 31),
       fillErrorSecondary: Color.fromARGB(255, 255, 248, 248),
+      fillBackgroundPrimary: Color.fromARGB(255, 255, 255, 255),
+      fillBackgroundSecondary: Color.fromARGB(255, 255, 255, 255),
     );
   }
 
@@ -58,6 +68,8 @@ class TepungColorTokens {
       fillInactiveSecondary: Color.fromARGB(255, 54, 52, 52),
       fillErrorPrimary: Color.fromARGB(255, 255, 50, 61),
       fillErrorSecondary: Color.fromARGB(255, 33, 0, 1),
+      fillBackgroundPrimary: Color.fromARGB(255, 28, 29, 29),
+      fillBackgroundSecondary: Color.fromARGB(255, 51, 52, 52),
     );
   }
 }

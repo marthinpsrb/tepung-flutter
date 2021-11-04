@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:tepung/src/button/tepung_button.dart';
 
 import 'tepung_theme_data.dart';
 import 'tepung_theme_mode.dart';
@@ -138,30 +139,30 @@ class TepungApp extends StatelessWidget {
       darkTheme: darkTheme,
       themeMode: themeMode,
       child: Builder(builder: (context) {
-        final alohaTheme = TepungTheme.of(context);
-        final theme = alohaTheme.material.theme.copyWith(
-            scaffoldBackgroundColor: alohaTheme.colors.fillBackgroundPrimary,
+        final tepungTheme = TepungTheme.of(context);
+        final theme = tepungTheme.material.theme.copyWith(
+            scaffoldBackgroundColor: tepungTheme.colors.fillBackgroundPrimary,
             bottomSheetTheme:
-                alohaTheme.material.theme.bottomSheetTheme.copyWith(
-              modalBackgroundColor: alohaTheme.colors.fillBackgroundPrimary,
-              backgroundColor: alohaTheme.colors.fillBackgroundPrimary,
+                tepungTheme.material.theme.bottomSheetTheme.copyWith(
+              modalBackgroundColor: tepungTheme.colors.fillBackgroundPrimary,
+              backgroundColor: tepungTheme.colors.fillBackgroundPrimary,
             ));
-        final darkTheme = alohaTheme.material.darkTheme.copyWith(
-            scaffoldBackgroundColor: alohaTheme.colors.fillBackgroundPrimary,
+        final darkTheme = tepungTheme.material.darkTheme.copyWith(
+            scaffoldBackgroundColor: tepungTheme.colors.fillBackgroundPrimary,
             bottomSheetTheme:
-                alohaTheme.material.darkTheme.bottomSheetTheme.copyWith(
-              modalBackgroundColor: alohaTheme.colors.fillBackgroundPrimary,
-              backgroundColor: alohaTheme.colors.fillBackgroundPrimary,
+                tepungTheme.material.darkTheme.bottomSheetTheme.copyWith(
+              modalBackgroundColor: tepungTheme.colors.fillBackgroundPrimary,
+              backgroundColor: tepungTheme.colors.fillBackgroundPrimary,
             ));
 
         if (_usesRouter) {
           return MaterialApp.router(
             theme: theme,
             darkTheme: darkTheme,
-            themeMode: alohaTheme.brightness == Brightness.light
+            themeMode: tepungTheme.brightness == Brightness.light
                 ? ThemeMode.light
                 : ThemeMode.dark,
-            color: alohaTheme.colors.fillActivePrimary,
+            color: tepungTheme.colors.fillActivePrimary,
             supportedLocales: supportedLocales,
             showSemanticsDebugger: showSemanticsDebugger,
             showPerformanceOverlay: showPerformanceOverlay,
@@ -186,10 +187,10 @@ class TepungApp extends StatelessWidget {
           return MaterialApp(
             theme: theme,
             darkTheme: darkTheme,
-            themeMode: alohaTheme.brightness == Brightness.light
+            themeMode: tepungTheme.brightness == Brightness.light
                 ? ThemeMode.light
                 : ThemeMode.dark,
-            color: alohaTheme.colors.fillActivePrimary,
+            color: tepungTheme.colors.fillActivePrimary,
             supportedLocales: supportedLocales,
             showSemanticsDebugger: showSemanticsDebugger,
             showPerformanceOverlay: showPerformanceOverlay,
