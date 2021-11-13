@@ -17,3 +17,7 @@ export 'package:tepung/src/theme/tepung_app.dart';
 export 'package:tepung/src/theme/tepung_material_token.dart';
 export 'package:tepung/src/theme/tepung_theme_data.dart';
 export 'package:tepung/src/theme/tepung_theme_mode.dart';
+
+// Slider
+export 'package:tepung/src/widget_components/onboarding/onboarding_slider/onboarding_slider.dart';
+export 'package:tepung/src/widget_components/onboarding/onboarding_slider/models/onboarding_slider_data_model.dart';
