@@ -5,12 +5,12 @@ class OnboardingSliderDataModel {
   final String description;
   final Color titleColor;
   final Color descriptionColor;
-  final String imagePath;
+  final Widget imageChild;
 
   const OnboardingSliderDataModel({
     required this.title,
     required this.description,
-    required this.imagePath,
+    required this.imageChild,
     required this.titleColor,
     required this.descriptionColor,
   });
