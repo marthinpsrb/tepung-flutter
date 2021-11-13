@@ -36,9 +36,9 @@ class _OnboardingSliderState extends State<OnboardingSlider> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.white,
       body: AnnotatedRegion<SystemUiOverlayStyle>(
-        value: SystemUiOverlayStyle.light,
+        value: SystemUiOverlayStyle.dark,
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -107,7 +107,7 @@ class _OnboardingSliderState extends State<OnboardingSlider> {
       ),
       bottomSheet: _currentPage == widget.dataModels.length - 1
           ? _showGetStartedButton()
-          : Container(),
+          : Text(''),
     );
   }
 
