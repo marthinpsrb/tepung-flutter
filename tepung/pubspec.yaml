@@ -28,5 +28,13 @@ flutter:
           weight: 600
         - asset: assets/fonts/maison_neue_bold.otf
           weight: 700
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir_black.otf
+          weight: 700
+        - asset: assets/fonts/avenir_book.otf
+          weight: 400
+        - asset: assets/fonts/avenir_roman.otf
+          weight: 600
   assets:
     - assets/icons/icActions16Add.svg

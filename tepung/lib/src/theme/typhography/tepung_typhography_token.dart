@@ -3,6 +3,51 @@ import 'package:flutter/material.dart';
 @immutable
 class TepungTypographyTokens {
   const TepungTypographyTokens._({
+    required this.titleLargeAvenirFontName,
+    required this.titleLargeAvenirFontSize,
+    required this.titleLargeAvenirLineHeight,
+    required this.titleLargeAvenirDefaultColor,
+    required this.titleLargeAvenirActiveColor,
+    required this.titleLargeAvenirInactiveColor,
+    required this.titleLargeAvenirErrorColor,
+    required this.titleLargeAvenirStaticWhiteColor,
+    required this.titleLargeAvenirInvertedColor,
+    required this.titleExtraLargeAvenirFontName,
+    required this.titleExtraLargeAvenirFontSize,
+    required this.titleExtraLargeAvenirLineHeight,
+    required this.titleExtraLargeAvenirDefaultColor,
+    required this.titleExtraLargeAvenirActiveColor,
+    required this.titleExtraLargeAvenirInactiveColor,
+    required this.titleExtraLargeAvenirErrorColor,
+    required this.titleExtraLargeAvenirStaticWhiteColor,
+    required this.titleExtraLargeAvenirInvertedColor,
+    required this.titleAvenirFontName,
+    required this.titleAvenirFontSize,
+    required this.titleAvenirLineHeight,
+    required this.titleAvenirDefaultColor,
+    required this.titleAvenirActiveColor,
+    required this.titleAvenirInactiveColor,
+    required this.titleAvenirErrorColor,
+    required this.titleAvenirStaticWhiteColor,
+    required this.titleAvenirInvertedColor,
+    required this.captionAvenirFontName,
+    required this.captionAvenirFontSize,
+    required this.captionAvenirLineHeight,
+    required this.captionAvenirDefaultColor,
+    required this.captionAvenirActiveColor,
+    required this.captionAvenirInactiveColor,
+    required this.captionAvenirErrorColor,
+    required this.captionAvenirStaticWhiteColor,
+    required this.captionAvenirInvertedColor,
+    required this.bodyAvenirFontName,
+    required this.bodyAvenirFontSize,
+    required this.bodyAvenirLineHeight,
+    required this.bodyAvenirDefaultColor,
+    required this.bodyAvenirActiveColor,
+    required this.bodyAvenirInactiveColor,
+    required this.bodyAvenirErrorColor,
+    required this.bodyAvenirStaticWhiteColor,
+    required this.bodyAvenirInvertedColor,
     required this.titleHeroFontName,
     required this.titleHeroFontSize,
     required this.titleHeroLineHeight,
@@ -142,6 +187,51 @@ class TepungTypographyTokens {
 
   factory TepungTypographyTokens.greenThemeDark() {
     return const TepungTypographyTokens._(
+      titleLargeAvenirFontName: 'avenir_black',
+      titleLargeAvenirFontSize: 17,
+      titleLargeAvenirLineHeight: 24,
+      titleLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleExtraLargeAvenirFontName: 'avenir_black',
+      titleExtraLargeAvenirFontSize: 20,
+      titleExtraLargeAvenirLineHeight: 28,
+      titleExtraLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleExtraLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleExtraLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleExtraLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleAvenirFontName: 'avenir_black',
+      titleAvenirFontSize: 14,
+      titleAvenirLineHeight: 20,
+      titleAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      captionAvenirFontName: 'avenir_book',
+      captionAvenirFontSize: 10,
+      captionAvenirLineHeight: 14,
+      captionAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      captionAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      captionAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      captionAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      bodyAvenirFontName: 'avenir_book',
+      bodyAvenirFontSize: 12,
+      bodyAvenirLineHeight: 16,
+      bodyAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      bodyAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      bodyAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      bodyAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
       titleHeroFontName: 'maison_neue_bold',
       titleHeroFontSize: 28,
       titleHeroLineHeight: 44,
@@ -282,6 +372,51 @@ class TepungTypographyTokens {
 
   factory TepungTypographyTokens.greenThemeLight() {
     return const TepungTypographyTokens._(
+      titleLargeAvenirFontName: 'avenir_black',
+      titleLargeAvenirFontSize: 17,
+      titleLargeAvenirLineHeight: 24,
+      titleLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleExtraLargeAvenirFontName: 'avenir_black',
+      titleExtraLargeAvenirFontSize: 20,
+      titleExtraLargeAvenirLineHeight: 28,
+      titleExtraLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleExtraLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleExtraLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleExtraLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleAvenirFontName: 'avenir_black',
+      titleAvenirFontSize: 14,
+      titleAvenirLineHeight: 20,
+      titleAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      captionAvenirFontName: 'avenir_book',
+      captionAvenirFontSize: 10,
+      captionAvenirLineHeight: 14,
+      captionAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      captionAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      captionAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      captionAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      bodyAvenirFontName: 'avenir_book',
+      bodyAvenirFontSize: 12,
+      bodyAvenirLineHeight: 16,
+      bodyAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      bodyAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      bodyAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      bodyAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
       titleHeroFontName: 'maison_neue_bold',
       titleHeroFontSize: 28,
       titleHeroLineHeight: 44,
@@ -422,6 +557,51 @@ class TepungTypographyTokens {
 
   factory TepungTypographyTokens.purpleThemeDark() {
     return const TepungTypographyTokens._(
+      titleLargeAvenirFontName: 'avenir_black',
+      titleLargeAvenirFontSize: 17,
+      titleLargeAvenirLineHeight: 24,
+      titleLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleExtraLargeAvenirFontName: 'avenir_black',
+      titleExtraLargeAvenirFontSize: 20,
+      titleExtraLargeAvenirLineHeight: 28,
+      titleExtraLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleExtraLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleExtraLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleExtraLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleAvenirFontName: 'avenir_black',
+      titleAvenirFontSize: 14,
+      titleAvenirLineHeight: 20,
+      titleAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      captionAvenirFontName: 'avenir_book',
+      captionAvenirFontSize: 10,
+      captionAvenirLineHeight: 14,
+      captionAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      captionAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      captionAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      captionAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      bodyAvenirFontName: 'avenir_book',
+      bodyAvenirFontSize: 12,
+      bodyAvenirLineHeight: 16,
+      bodyAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      bodyAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      bodyAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      bodyAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
       titleHeroFontName: 'maison_neue_bold',
       titleHeroFontSize: 28,
       titleHeroLineHeight: 44,
@@ -562,6 +742,51 @@ class TepungTypographyTokens {
 
   factory TepungTypographyTokens.purpleThemeLight() {
     return const TepungTypographyTokens._(
+      titleLargeAvenirFontName: 'avenir_black',
+      titleLargeAvenirFontSize: 17,
+      titleLargeAvenirLineHeight: 24,
+      titleLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleExtraLargeAvenirFontName: 'avenir_black',
+      titleExtraLargeAvenirFontSize: 20,
+      titleExtraLargeAvenirLineHeight: 28,
+      titleExtraLargeAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleExtraLargeAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleExtraLargeAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleExtraLargeAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleExtraLargeAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      titleAvenirFontName: 'avenir_black',
+      titleAvenirFontSize: 14,
+      titleAvenirLineHeight: 20,
+      titleAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      titleAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      titleAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      titleAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      titleAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      captionAvenirFontName: 'avenir_book',
+      captionAvenirFontSize: 10,
+      captionAvenirLineHeight: 14,
+      captionAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      captionAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      captionAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      captionAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      captionAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
+      bodyAvenirFontName: 'avenir_book',
+      bodyAvenirFontSize: 12,
+      bodyAvenirLineHeight: 16,
+      bodyAvenirDefaultColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirActiveColor: Color.fromARGB(255, 21, 48, 110),
+      bodyAvenirInactiveColor: Color.fromARGB(255, 142, 142, 142),
+      bodyAvenirErrorColor: Color.fromARGB(255, 255, 50, 61),
+      bodyAvenirStaticWhiteColor: Color.fromARGB(255, 255, 255, 255),
+      bodyAvenirInvertedColor: Color.fromARGB(255, 28, 29, 29),
       titleHeroFontName: 'maison_neue_bold',
       titleHeroFontSize: 28,
       titleHeroLineHeight: 44,
@@ -699,6 +924,56 @@ class TepungTypographyTokens {
       captionSmallBookInvertedColor: Color.fromARGB(255, 255, 255, 255),
     );
   }
+
+  final String titleLargeAvenirFontName; // 17
+  final double titleLargeAvenirFontSize;
+  final double titleLargeAvenirLineHeight;
+  final Color titleLargeAvenirDefaultColor;
+  final Color titleLargeAvenirActiveColor;
+  final Color titleLargeAvenirInactiveColor;
+  final Color titleLargeAvenirErrorColor;
+  final Color titleLargeAvenirStaticWhiteColor;
+  final Color titleLargeAvenirInvertedColor;
+
+  final String titleExtraLargeAvenirFontName; // 20
+  final double titleExtraLargeAvenirFontSize;
+  final double titleExtraLargeAvenirLineHeight;
+  final Color titleExtraLargeAvenirDefaultColor;
+  final Color titleExtraLargeAvenirActiveColor;
+  final Color titleExtraLargeAvenirInactiveColor;
+  final Color titleExtraLargeAvenirErrorColor;
+  final Color titleExtraLargeAvenirStaticWhiteColor;
+  final Color titleExtraLargeAvenirInvertedColor;
+
+  final String titleAvenirFontName; // 14
+  final double titleAvenirFontSize;
+  final double titleAvenirLineHeight;
+  final Color titleAvenirDefaultColor;
+  final Color titleAvenirActiveColor;
+  final Color titleAvenirInactiveColor;
+  final Color titleAvenirErrorColor;
+  final Color titleAvenirStaticWhiteColor;
+  final Color titleAvenirInvertedColor;
+
+  final String captionAvenirFontName; // 10
+  final double captionAvenirFontSize;
+  final double captionAvenirLineHeight;
+  final Color captionAvenirDefaultColor;
+  final Color captionAvenirActiveColor;
+  final Color captionAvenirInactiveColor;
+  final Color captionAvenirErrorColor;
+  final Color captionAvenirStaticWhiteColor;
+  final Color captionAvenirInvertedColor;
+
+  final String bodyAvenirFontName; // 12
+  final double bodyAvenirFontSize;
+  final double bodyAvenirLineHeight;
+  final Color bodyAvenirDefaultColor;
+  final Color bodyAvenirActiveColor;
+  final Color bodyAvenirInactiveColor;
+  final Color bodyAvenirErrorColor;
+  final Color bodyAvenirStaticWhiteColor;
+  final Color bodyAvenirInvertedColor;
 
   final String titleHeroFontName;
   final double titleHeroFontSize;

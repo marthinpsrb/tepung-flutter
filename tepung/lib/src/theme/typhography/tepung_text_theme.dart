@@ -34,6 +34,230 @@ class TepungTextTheme {
     );
   }
 
+  TextStyle get titleLargeAvenirDefaultColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeDefaultColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+  TextStyle get titleLargeAvenirActiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeActiveColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+  TextStyle get titleLargeAvenirInactiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeInactiveColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+  TextStyle get titleLargeAvenirErrorColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeErrorColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+
+  TextStyle get titleLargeAvenirStaticWhiteColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeStaticWhiteColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+
+  TextStyle get titleLargeAvenirInvertedColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleLargeAvenirFontSize,
+        color: tokens.titleLargeAvenirInvertedColor,
+        height: tokens.titleLargeAvenirLineHeight / tokens.titleLargeFontSize,
+      );
+
+  TextStyle get titleExtraLargeAvenirDefaultColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeDefaultColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+  TextStyle get titleExtraLargeAvenirActiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeAvenirActiveColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+  TextStyle get titleExtraLargeAvenirInactiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeAvenirInactiveColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+
+  TextStyle get titleExtraLargeAvenirErrorColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeAvenirErrorColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+  TextStyle get titleExtraLargeAvenirStaticWhiteColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeStaticWhiteColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+  TextStyle get titleExtraLargeAvenirInvertedColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleExtraLargeFontSize,
+        color: tokens.titleExtraLargeAvenirInvertedColor,
+        height: tokens.titleExtraLargeAvenirLineHeight /
+            tokens.titleExtraLargeFontSize,
+      );
+
+  TextStyle get titleAvenirDefaultColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleAvenirDefaultColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+  TextStyle get titleAvenirActiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleAvenirActiveColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+  TextStyle get titleAvenirInactiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleAvenirInactiveColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+  TextStyle get titleAvenirErrorColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleAvenirErrorColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+  TextStyle get titleAvenirStaticWhiteColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleAvenirStaticWhiteColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+  TextStyle get titleAvenirInvertedColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.titleAvenirFontSize,
+        color: tokens.titleHeroInvertedColor,
+        height: tokens.titleAvenirLineHeight / tokens.titleAvenirFontSize,
+      );
+
+  TextStyle get captionAvenirDefaultColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirDefaultColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+  TextStyle get captionAvenirActiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirActiveColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+  TextStyle get captionAvenirInactiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirInactiveColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+  TextStyle get captionAvenirErrorColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirErrorColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+  TextStyle get captionAvenirStaticWhiteColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirStaticWhiteColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+  TextStyle get captionAvenirInvertedColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.captionAvenirFontSize,
+        color: tokens.captionAvenirInvertedColor,
+        height: tokens.captionAvenirLineHeight / tokens.captionAvenirFontSize,
+      );
+
+  TextStyle get bodyAvenirDefaultColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirDefaultColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+  TextStyle get bodyAvenirActiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirActiveColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+  TextStyle get bodyAvenirInactiveColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirInactiveColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+  TextStyle get bodyAvenirErrorColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirErrorColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+  TextStyle get bodyAvenirStaticWhiteColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirStaticWhiteColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+  TextStyle get bodyAvenirInvertedColor => TextStyle(
+        fontFamily: 'Avenir',
+        fontWeight: FontWeight.w500,
+        fontSize: tokens.bodyAvenirFontSize,
+        color: tokens.bodyAvenirInvertedColor,
+        height: tokens.bodyAvenirLineHeight / tokens.bodyAvenirFontSize,
+      );
+
   TextStyle get titleHeroDefault => TextStyle(
         fontFamily: 'MaisonNeue',
         fontWeight: FontWeight.bold,
